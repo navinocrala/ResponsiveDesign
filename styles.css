@@ -246,7 +246,7 @@ main {
     min-width: 320px;
     height: auto;
     background-color: var(--warm-black);
-    text-align: center;
+    
     position: relative;
     padding: 20px 10px;
 }
@@ -266,7 +266,7 @@ main {
     min-width: 288px;
     height: auto;
     margin-top: 50px;
-    
+    text-align: center;
 }
 
 .seccion2 h2 {
@@ -280,21 +280,35 @@ main {
 .seccion2 h3 {
     color: var(--just-white);
     text-align: left;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
     padding: 8px;
+    font-weight: bold;
+    line-height: 1.8rem;
+    
 }
 
 .seccion2_cabecera p {
     color: #808080;
     margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+
 }
 
 .seccion2_box {
-    justify-content: center;
-    width: 300px;
+    
+    width: 100%px;
+    min-width: 288px;
+    max-width: 400px;
+    height: auto;
+    margin: 15px auto;
     background-color: #282623;
     margin: 15px auto;
     border-radius: 5px;
     padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16)
 }
 
 .seccion2 p {
@@ -302,16 +316,29 @@ main {
 }
 
 .seccion2_box p {
+    font-weight: 1.4rem;
+    line-height: 1.8rem;
     text-align: left;
     font-size: 15px;
 }
 
-.icon_time {
-    
+.icon_time, .icon_eye, .icon_money, .icon_check {
+    display: inline-block;
     width: 20px;
     height: 20px;
-    
-    background: fixed;
+    margin-bottom: 10px;
+    text-align: left;
+    background-size: cover;
     background-repeat: no-repeat;
     background-image: url(./assets/assets/icons/clock.svg);
+}
+
+.icon_eye{
+    background-image: url(./assets/assets/icons/eye.svg);
+} 
+.icon_money{
+    background-image: url(./assets/assets/icons/dollar-sign.svg);
+}
+.icon_check {
+    background-image: url(./assets/assets/icons/check-circle.svg);
 }
