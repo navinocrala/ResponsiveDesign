@@ -240,3 +240,78 @@ main {
     font-size: 1.2rem;
     line-height: 1.5rem;
 }
+
+.seccion2 {
+    width: 100%;
+    min-width: 320px;
+    height: auto;
+    background-color: var(--warm-black);
+    text-align: center;
+    position: relative;
+    padding: 20px 10px;
+}
+
+.product-detail--patata-logo {
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url(./assets/assets/icons/batata.svg);
+}
+
+.seccion2_cabecera {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 288px;
+    height: auto;
+    margin-top: 50px;
+    
+}
+
+.seccion2 h2 {
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+
+.seccion2 h3 {
+    color: var(--just-white);
+    text-align: left;
+    padding: 8px;
+}
+
+.seccion2_cabecera p {
+    color: #808080;
+    margin-bottom: 20px;
+}
+
+.seccion2_box {
+    justify-content: center;
+    width: 300px;
+    background-color: #282623;
+    margin: 15px auto;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.seccion2 p {
+    color: #808080;
+}
+
+.seccion2_box p {
+    text-align: left;
+    font-size: 15px;
+}
+
+.icon_time {
+    
+    width: 20px;
+    height: 20px;
+    
+    background: fixed;
+    background-repeat: no-repeat;
+    background-image: url(./assets/assets/icons/clock.svg);
+}
